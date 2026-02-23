@@ -1,5 +1,5 @@
-export default function Cardboard({Cards}){
+export default function Cardboard({Cards, cardClickHandler}){
     return Cards.map((card)=>{
-      return <img src={card.image_url} alt="" key={card.name}/>
+      return <img src={card.image_url} alt="" key={card.name} name={card.name} onClick={cardClickHandler}/>
     })
 }

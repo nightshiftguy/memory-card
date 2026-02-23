@@ -1,0 +1,22 @@
+.cardboard{
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.cardboard-img{
+    width: 200px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    border:1px solid darkgray;
+    border-radius: 10px;
+}
+
+.cardboard-img:hover{
+    background-color: lightgray;
+}
+
+.game-message{
+    text-align: center;
+}
